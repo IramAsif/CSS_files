@@ -1,0 +1,59 @@
+<html>
+	<head>
+	<title>Font Peroperties</title>
+	<style>
+	body{
+	font-size:18px
+	font-weight:600;
+	}
+	#box{
+	width:400px;
+	padding:25px;
+	border:2px solid pink;
+	margin-bottom:20px;
+	  font:<!--oblique small-caps normal -->1em/35px arial, helvetica,verdana  
+	}
+	#box2{
+	width:400px;
+	padding:25px;
+	border:2px solid tan;
+	font-size:15px;
+	}
+	#box2 span{
+	font-size:2em
+	}
+	</style>
+	</head>
+	<body>
+	<h1>Font Peroperties</h1>
+	<div id="box">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nulla augue, ultricies efficitur lectus ut, luctus consequat dolor. Cras non turpis convallis elit luctus commodo. Praesent pulvinar ante iaculis urna commodo faucibus. Vestibulum euismod lectus quis orci lacinia consectetur. Donec euismod eros volutpat nibh ullamcorper, quis dapibus felis viverra. In hac habitasse platea dictumst. Etiam gravida eu tellus eu aliquet.
+	</div>
+	<div id="box2">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nulla augue, ultricies efficitur lectus ut, luctus consequat dolor. Cras non turpis convallis elit luctus commodo. Praesent pulvinar ante iaculis urna <span>commodo <span>faucibus.</span> Vestibulum </span>euismod lectus quis orci lacinia consectetur. Donec euismod eros volutpat nibh ullamcorper, quis dapibus felis viverra. In hac habitasse platea dictumst. Etiam gravida eu tellus eu aliquet.
+	</div>
+  <!-- Notes: -->
+    <!-- -box mai font-size:80% ka mtlb body ka jo actual font size hai us ka 80% size hmian show ho ga. -->
+	<!-- -2em ka mtlb 2-gona  size 3em ka mtlb 3-gona size-->
+	<!-- -1 em pay same size hi rhta hai -->
+	<!-- -line-height pixels mai b hoti hai or em mai  -->
+	<!-- -em comppound mai b work krta hain yani,  -->
+	<!-- -span within span pr b chlay ga -->
+	<!-- - 400px font-weight ka normal weight hai.. -->
+	<!-- - font-style:oblique ka mtlb hai agr koi system arial ko -->
+	<!-- support nhi krta to wo oblique ko run kr day ga -->
+	  <!-- Shorthand: -->
+				<!-- font:oblique small-caps normal 1em/35px arial, helvetica,verdana -->
+	<!-- -short hand mai sb say phlay hmaray pas font-style hai, phr font-variant ata hai, -->
+	<!-- phr font weight ata hai, phr font-size,phr line-height,phr last mai  -->
+	<!-- ati hai font family ati hai, is mai hm ak font b lga sktay  -->
+	<!-- hain or multiple fonts b lga sktay hain. -->
+	<!-- font-family:arial; -->
+	<!-- font-size:70%; -->
+	<!-- font-style:oblique; -->
+	
+	<!-- line-height:35px; -->
+	<!-- font-weight:normal; -->
+	<!-- font-variant:small-caps; -->
+	</body>
+</html>
